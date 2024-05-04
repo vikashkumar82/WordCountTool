@@ -1,0 +1,79 @@
+﻿
+
+
+/*            new tool          */
+
+.header-Section {
+    display: flex;
+    justify-content: space-between;
+    
+    color: black;
+    padding: 20px 30px 0 30px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.wordCount-tool {
+    background: #f7f8f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px 1px #f7fafc;
+}
+
+textarea#txtInput {
+    border-radius: 14px;
+}
+.bottom-checker {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    font-size: smaller;
+    color: #000000;
+    font-weight: 600;
+}
+
+span#paragraphs {
+    background: #686a69;
+    color: white;
+    padding: 1px 6px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+
+span#sentences {
+    background: #686a69;
+    color: white;
+    padding: 1px 6px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+
+.bottom-checker {
+    padding: 10px 20px;
+}
+
+#txtInput {
+    border:none;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.countH2 {
+    margin-top: -12px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+
+/* for responsive*/
+/*@media only screen and (max-width:767px) and (min-width:360px) {
+
+
+
+}
+*/
